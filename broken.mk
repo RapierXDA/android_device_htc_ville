@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 540
 $(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/ville/device_ville.mk)
+$(call inherit-product, device/htc/ville/full_ville.mk)
 
 # Device naming
 PRODUCT_DEVICE := ville
